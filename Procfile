@@ -1,1 +1,1 @@
-worker: slack-bot 
+worker: sh slack-bot 
