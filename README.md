@@ -8,7 +8,6 @@
 
 ## Configuration
 
-
 ## Workers
 
 ### Troll (Bot) Worker
