@@ -14,13 +14,117 @@ loggers:
 #  bot.worker.<name>:
 #    level: "DEBUG"
 
-#workers:
-#  - type: "example"
-#    params: {}
-#  - type: "troll"
-#    params:
-#      - regex: 'h(i|ello|ola)\sbot'
-#        rtas:
-#          - msg: "Hello <user>, how are you?"
-#          - msg: "Hi <user>!!!"
-#          - msg: "Hola <user>!!!"
+workers:
+    - type: "troll"
+      params:
+        - regex: 'ho+l[ai]+(s+)?'
+          rtas:
+            - msg: "Holisss mi miguissss <user>!!!"
+        #
+        - regex: 'fern(echi|andito|ando)(\s|$)+'
+          rtas:
+            - msg: "You have to mix it with coke"
+            - msg: "Cat, head of chota"
+            - msg: "Head of chota, cat"
+
+        - regex: 'gil(\s|$)+'
+          rtas:
+            - msg: "<user>, eh voh' que agitah' ?!?!"
+            - msg: "<user>, recatateh' amegoh' ke se te arrima el bondih'"
+
+        - regex: 'gato(\s|$)+'
+          rtas:
+            - img: "https://i.imgur.com/ROqqYjM.png"
+
+        - regex: 'm[aá]g(ic|ia)(\s|$)+'
+          rtas:
+            - msg: "<user> dejá de tirar tanta magia"
+              img: "https://media.tenor.co/images/5fb8e3d4c56cdf53fb15356f8fd4987e/raw"
+
+        - regex: 'amo(.*)bot(on)?(s+)?'
+          rtas:
+            - msg: "<user>, Gracias sonsito :heart::kiss:"
+
+        - regex: '(aq|arquant(s)?)(\s|$)+'
+          rtas:
+            - msg: "<user>, puede darme dinero?"
+              img: "https://i.imgflip.com/37g46s.jpg"
+
+        - regex: 'login(\s|$)+'
+          rtas:
+            - msg: "<user> NO PISES MI LOGIN!!!! :tired_face:"
+              img: "https://i.imgflip.com/37e29s.jpg"
+
+        # Techies
+        - regex: 'p\.?o\.?c(\s|$)+'
+          rtas:
+            - msg: "Ayuda, soy una poc y estoy atrapada en produccion, saquenme de aca!"
+            - msg: "Es una PoC, :musical_note: Loh' atamo' con alambre, lo' atamoh' :musical_note:"
+
+        - regex: '(css|style-sheet)(\s|$)+'
+          rtas:
+            - img: "https://i.imgur.com/Q3cUg29.gif"
+            - img: "https://i.imgur.com/kv7Eods.png"
+
+        - regex: '(node|js|angular|java-?script)(\s|$)+'
+          rtas:
+            - img: "https://media.makeameme.org/created/javascript-sgfi8v.jpg"
+            - img: "https://img.devrant.io/devrant/rant/r_608411_Wd4s9.jpg"
+            - img: "https://pbs.twimg.com/media/CoVk24zWEAEtC4B.jpg"
+            - img: "https://i.imgur.com/5LizKB8.png"
+            - img: "http://gsferreira.com/images/reduce-the-path-length-of-your-node-js-project-dependencies-dependencies-everywhere.jpg"
+
+        - regex: 'proxy(\s|$)+'
+          rtas:
+            - msg: "Nah Nah Nah <user>, otro proxy más?!?!"
+            - msg: ":kuaker:, alguien dijo PROXY?!?! :trollface:"
+
+        # ISBA Team
+        - regex: 'l[ai]cha'
+          rtas:
+            - msg: ":licha: :heart: :kuaker:"
+            - msg: ":licha: :heart: :vaca:"
+            - msg: ":licha: :heart: :licha:"
+            - msg: ":licha: :heart: :manu:"
+
+        - regex: 'manu'
+          rtas:
+            - msg: |
+                <user>, no habrás querido decir...
+                :manu: :manu: :manu: :manu:        :manu: :manu: :manu: :manu:    :manu: :manu: :manu: :manu: :manu:    :manu: :manu: :manu: :manu: :manu:
+                :manu:                            :manu:               :manu:                  :manu:                 :manu:                      :manu:
+                :manu:         :manu::manu:        :manu:  :manu: :manu::manu:                  :manu:                 :manu:                      :manu:
+                :manu:               :manu:        :manu:               :manu:                 :manu:                 :manu:                      :manu:
+                :manu: :manu: :manu: :manu:        :manu:               :manu:                  :manu:                 :manu: :manu: :manu: :manu: :manu:
+
+                :trollface:
+            - img: "https://i.imgflip.com/36xs0n.jpg"
+
+        - regex: '(nico)?lino(\s|$)+'
+          rtas:
+            - img: "https://i.imgflip.com/2w167o.jpg"
+
+        - regex: '(curr[aá]|gaby)(\s|$)+'
+          rtas:
+            - msg: "<user>, que mirás?!?"
+              img: "https://i.imgflip.com/37e5lw.jpg"
+
+
+
+        # Infra Team
+        - regex: '(milanga|wil+[yi])(\s|$)+'
+          rtas:
+            - msg: "Mira... no sabía"
+            - msg: "No sabía nada"
+            - msg: "Es un valor agregado"
+            - msg: "Ahora todo es efímero"
+            - msg: "Ah, quedo legacy"
+            - msg: "Que sugerirías vos?"
+            - msg: "Ammmmmmm.."
+            - msg: "Uuuuummmmmmm..."
+            - msg: "Si, no sé"
+
+        - regex: '(oj(o|ito)s?|willy)(\s|$)+'
+          rtas:
+            - msg: "*Big Brother is Watching You.*"
+              img: "https://i.imgur.com/5KASKiY.png"
