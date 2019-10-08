@@ -17,6 +17,7 @@ func init() {
 
 func main() {
 	config := configConstructor()
+	log.Debugf("Config: %v", config)
 
 	// Slack Client
 	api := slack.New(config.Slack.Token)
