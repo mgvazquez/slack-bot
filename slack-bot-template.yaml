@@ -100,7 +100,7 @@ workers:
                 :trollface:
             - img: "https://i.imgflip.com/36xs0n.jpg"
             - img: "https://i.imgur.com/KG5CJOs.gif"
-	    - img: "https://i.imgur.com/IbpB9Tw.gif"
+            - img: "https://i.imgur.com/IbpB9Tw.gif"
 
         - regex: '(nico)?lino(\s|$)+'
           rtas:
