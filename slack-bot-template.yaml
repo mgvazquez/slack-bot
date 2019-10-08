@@ -103,6 +103,11 @@ workers:
             - msg: "<user>, alquien dijo DevOps?!?"
               img: "https://media.giphy.com/media/MC4RkUy3usx71eiwja/giphy.gif"
 
+        - regex: '(\s)?devop(s)?(\s|$)+'
+          rtas:
+            - msg: "<user>, alquien dijo DevOps?!?"
+              img: "https://media.giphy.com/media/MC4RkUy3usx71eiwja/giphy.gif"
+
         - regex: '(nico)?lino(\s|$)+'
           rtas:
             - img: "https://i.imgflip.com/2w167o.jpg"
