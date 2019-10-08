@@ -1,0 +1,26 @@
+loggers:
+  bot:
+    level: "TRACE"
+  bot.worker:
+    level: "TRACE"
+  bot.worker.troll:
+    level: "DEBUG"
+
+#slack:
+#  token: "xxxx-xxxxxxxxxxx-xxxxxxxxxxxx-xxxxxxxxxxxxxxxxxxxxxxxx"
+#  excluded_user_ids:
+#    - DJ279F09E
+
+#  bot.worker.<name>:
+#    level: "DEBUG"
+
+#workers:
+#  - type: "example"
+#    params: {}
+#  - type: "troll"
+#    params:
+#      - regex: 'h(i|ello|ola)\sbot'
+#        rtas:
+#          - msg: "Hello <user>, how are you?"
+#          - msg: "Hi <user>!!!"
+#          - msg: "Hola <user>!!!"

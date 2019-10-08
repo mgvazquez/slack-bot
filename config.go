@@ -35,13 +35,18 @@ func loggerConfigInitiator(conf *map[string]logger){
 
 func configConstructor() Configuration {
 	var conf Configuration
-	loadFileErr := config.Load(
-						file.NewSource(
-							file.WithPath("./slack-bot.yaml"),
+	loadConfigErr := config.Load(
+						env.NewSource(
+							env.WithStrippedPrefix("SB"),
 						),
-						env.NewSource(),
+						file.NewSource(
+							file.WithPath("slack-bot.yaml"),
+							file.WithPath("slack-bot-template.yaml"),
+						),
 					)
-	if loadFileErr != nil {	}
+	if loadConfigErr != nil {	}
+	syncConfigErr := config.Sync()
+	if syncConfigErr != nil {	}
 	parseConfigErr := config.Scan(&conf)
 	if parseConfigErr != nil { }
 	loggerConfigInitiator(&conf.Loggers)
