@@ -126,7 +126,7 @@ workers:
             - msg: "Uuuuummmmmmm..."
             - msg: "Si, no sé"
 
-        - regex: '(oj(o|ito)s?|willy)(\s|$)+'
+        - regex: '(oj(o|ito)s?|wil+[yi])(\s|$)+'
           rtas:
             - msg: "*Big Brother is Watching You.*"
               img: "https://i.imgur.com/5KASKiY.png"
