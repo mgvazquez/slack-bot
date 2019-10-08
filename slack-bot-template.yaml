@@ -100,7 +100,7 @@ workers:
                 :trollface:
             - img: "https://i.imgflip.com/36xs0n.jpg"
             - img: "https://media.giphy.com/media/LQo6veXYa7Kt3Jxy1V/giphy.gif"
-	    - img: "https://media.giphy.com/media/MC4RkUy3usx71eiwja/giphy.gif"
+            - img: "https://media.giphy.com/media/MC4RkUy3usx71eiwja/giphy.gif"
 
         - regex: '(nico)?lino(\s|$)+'
           rtas:
@@ -126,7 +126,7 @@ workers:
             - msg: "Uuuuummmmmmm..."
             - msg: "Si, no sé"
 
-        - regex: '(oj(o|ito)s?|willy)(\s|$)+'
+        - regex: '(oj(o|ito)s?|wil+[yi])(\s|$)+'
           rtas:
             - msg: "*Big Brother is Watching You.*"
               img: "https://i.imgur.com/5KASKiY.png"
