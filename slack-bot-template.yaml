@@ -87,7 +87,7 @@ workers:
             - msg: ":licha: :heart: :licha:"
             - msg: ":licha: :heart: :manu:"
 
-        - regex: 'manu'
+        - regex: '(\s)?manu(\s|$)+'
           rtas:
             - msg: |
                 <user>, no habrás querido decir...
