@@ -1,1 +1,1 @@
-worker: sh slack-bot 
+worker: sh bin/slack-bot 
