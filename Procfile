@@ -1,1 +1,1 @@
-worker: env && slack-bot 
+worker: ls -las && env && slack-bot 
