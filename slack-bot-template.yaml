@@ -136,3 +136,7 @@ workers:
           rtas:
             - msg: "*Big Brother is Watching You.*"
               img: "https://i.imgur.com/5KASKiY.png"
+
+        - regex: '(\s)?(jona|comandante|braun)(\s|$)+'
+          rtas:
+            - img: "https://media.giphy.com/media/UoXRXZ0LyLrp6HyefD/giphy.gif"
