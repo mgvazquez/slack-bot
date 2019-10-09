@@ -117,7 +117,10 @@ workers:
             - msg: "<user>, que mirás?!?"
               img: "https://i.imgflip.com/37e5lw.jpg"
 
-
+        - regex: '(\s)?bonat(o|e)(\s|$)+'
+          rtas:
+            - msg: "Bonate-bonate, Bonate"
+              img: "https://i.imgur.com/PcnoVty.png"
 
         # Infra Team
         - regex: '(milanga|wil+[yi])(\s|$)+'
