@@ -157,5 +157,5 @@ workers:
             - img: "https://media.giphy.com/media/3o6Ztd3VwRbHlSUdva/giphy.gif"
 
         - regex: '(\s)?er?ic(\s|$)+'
-            rtas:
-              - img: "https://i.imgur.com/hadyySd.jpg"
+          rtas:
+            - img: "https://i.imgur.com/hadyySd.jpg"
