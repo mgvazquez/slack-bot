@@ -78,6 +78,7 @@ workers:
           rtas:
             - msg: "Nah Nah Nah <user>, otro proxy más?!?!"
             - msg: ":kuaker:, alguien dijo PROXY?!?! :trollface:"
+            - msg: ":hindsight:, alguien dijo PROXY?!?! :trollface:"
 
         # ISBA Team
         - regex: 'l[ai]cha'
@@ -155,7 +156,7 @@ workers:
           rtas:
             - img: "https://media.giphy.com/media/8Q62oGruZu0BG/giphy.gif"
             - img: "https://media.giphy.com/media/3o6Ztd3VwRbHlSUdva/giphy.gif"
-
+#fix
         - regex: '(\s)?er?ic(\s|$)+'
           rtas:
             - img: "https://i.imgur.com/hadyySd.jpg"
