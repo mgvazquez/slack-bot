@@ -143,7 +143,6 @@ workers:
             - msg: "The extra mile, Security & Quality"
             - msg: "¯\\/(ツ)\\/¯"
 
-
         - regex: '(oj(o|ito)s?|wil+[yi])(\s|$)+'
           rtas:
             - msg: "*Big Brother is Watching You.*"
@@ -152,3 +151,8 @@ workers:
         - regex: '(\s)?(jona|comandante|braun)(\s|$)+'
           rtas:
             - img: "https://media.giphy.com/media/UoXRXZ0LyLrp6HyefD/giphy.gif"
+
+        - regex: '(\s)?(kaker|kuaker)(\s|$)+'
+          rtas:
+            - img: "https://media.giphy.com/media/8Q62oGruZu0BG/giphy.gif"
+            - img: "https://media.giphy.com/media/3o6Ztd3VwRbHlSUdva/giphy.gif"
