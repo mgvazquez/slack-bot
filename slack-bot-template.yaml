@@ -152,7 +152,7 @@ workers:
           rtas:
             - img: "https://media.giphy.com/media/UoXRXZ0LyLrp6HyefD/giphy.gif"
 
-        - regex: '(\s)?(kaker|kuaker)(\s|$)+'
+        - regex: '(\s)?ku?aker(\s|$)+'
           rtas:
             - img: "https://media.giphy.com/media/8Q62oGruZu0BG/giphy.gif"
             - img: "https://media.giphy.com/media/3o6Ztd3VwRbHlSUdva/giphy.gif"
