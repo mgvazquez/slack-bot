@@ -137,10 +137,9 @@ workers:
             - msg: "Mmmm, eso lo tendria que validar"
             - msg: "Lo podes validar vos?"
             - msg: "Validemos eso por favor"
-            - msg: "Ya lo valide"
             - msg: "I'm inevitable"
             - msg: "No me quedo muy claro, como era?"
-            - msg: "The extra mile, Security & Quality"
+            - img: "https://media.giphy.com/media/xUOxf3BVLljHtQbL7a/giphy.gif"
             - msg: "¯\\/(ツ)\\/¯"
 
         - regex: '(oj(o|ito)s?|wil+[yi])(\s|$)+'
