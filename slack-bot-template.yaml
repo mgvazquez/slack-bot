@@ -134,6 +134,15 @@ workers:
             - msg: "Ammmmmmm.."
             - msg: "Uuuuummmmmmm..."
             - msg: "Si, no sé"
+            - msg: " ¯\/(ツ)\/¯"
+            - msg: "eso lo tendria que validar"
+            - msg: "lo podes validar vos?"
+            - msg: "validemos eso por favor"
+            - msg: "ya lo valide"
+            - msg: "I'm inevitable"
+            - msg: "no me quedo muy claro, como era?"
+            - msg: "The extra mile, Security & Quality"
+
 
         - regex: '(oj(o|ito)s?|wil+[yi])(\s|$)+'
           rtas:
