@@ -134,14 +134,14 @@ workers:
             - msg: "Ammmmmmm.."
             - msg: "Uuuuummmmmmm..."
             - msg: "Si, no sé"
-            - msg: " ¯\/(ツ)\/¯"
-            - msg: "eso lo tendria que validar"
-            - msg: "lo podes validar vos?"
-            - msg: "validemos eso por favor"
-            - msg: "ya lo valide"
+            - msg: "Mmmm, eso lo tendria que validar"
+            - msg: "Lo podes validar vos?"
+            - msg: "Validemos eso por favor"
+            - msg: "Ya lo valide"
             - msg: "I'm inevitable"
-            - msg: "no me quedo muy claro, como era?"
+            - msg: "No me quedo muy claro, como era?"
             - msg: "The extra mile, Security & Quality"
+            - msg: "¯\\/(ツ)\\/¯"
 
 
         - regex: '(oj(o|ito)s?|wil+[yi])(\s|$)+'
