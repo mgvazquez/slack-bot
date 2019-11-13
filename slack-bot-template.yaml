@@ -117,6 +117,10 @@ workers:
           rtas:
             - msg: "<user>, que mirás?!?"
               img: "https://i.imgflip.com/37e5lw.jpg"
+            - msg: "No robareís cerveza al coreano de la esquina. Sí a los del hipermercado que a ellos les jode menos."
+              img: "https://i.imgur.com/IAoMx6v.jpg"
+            - msg: "No desearáis a la mujer de tu prójimo. En el barrio está mal visto. Tampoco desearáis a tu prójimo salvo que tú y tu prójimo se la lastren. En ese caso está todo bien dale para' delante y no le den cabida a los caretas."
+              img: "https://i.imgur.com/IAoMx6v.jpg"
 
         - regex: '(\s)?bonat(o|e)(\s|$)+'
           rtas:
