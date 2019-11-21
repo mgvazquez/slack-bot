@@ -126,6 +126,7 @@ workers:
           rtas:
             - msg: "Bonate-bonate, Bonate"
               img: "https://i.imgur.com/PcnoVty.png"
+            - img: "https://i.imgur.com/OBjcMqJ.jpg"
 
         # Infra Team
         - regex: '(milanga|wil+[yi])(\s|$)+'
