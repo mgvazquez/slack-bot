@@ -102,12 +102,12 @@ workers:
             - img: "https://i.imgflip.com/36xs0n.jpg"
             - img: "https://media.giphy.com/media/LQo6veXYa7Kt3Jxy1V/giphy.gif"
             - msg: "<user>, alquien dijo DevOps?!?"
-              img: "https://media.giphy.com/media/MC4RkUy3usx71eiwja/giphy.gif"
+              img: "https://i.imgur.com/ihupE8c.gif"
 
         - regex: '(\s)?devop(s)?(\s|$)+'
           rtas:
             - msg: "<user>, alquien dijo DevOps?!?"
-              img: "https://media.giphy.com/media/MC4RkUy3usx71eiwja/giphy.gif"
+              img: "https://i.imgur.com/ihupE8c.gif"
 
         - regex: '(nico)?lino(\s|$)+'
           rtas:
