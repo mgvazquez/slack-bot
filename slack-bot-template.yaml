@@ -147,6 +147,7 @@ workers:
             - msg: "No me quedo muy claro, como era?"
             - img: "https://media.giphy.com/media/xUOxf3BVLljHtQbL7a/giphy.gif"
             - msg: "¯\\/(ツ)\\/¯"
+            - img: "https://i.imgur.com/3lZMh3k.png"
 
         - regex: '(oj(o|ito)s?|wil+[yi])(\s|$)+'
           rtas:
@@ -165,3 +166,5 @@ workers:
         - regex: '(\s)?er?ic(\s|$)+'
           rtas:
             - img: "https://i.imgur.com/hadyySd.jpg"
+            - img: "https://i.imgur.com/3lZMh3k.png"
+
