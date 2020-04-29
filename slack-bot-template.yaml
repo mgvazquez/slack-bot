@@ -17,56 +17,56 @@ loggers:
 workers:
     - type: "troll"
       params:
-        - regex: 'ho+l[ai]+(s+)?'
+        - regex: '(\s)?ho+l[ai]+(s+)?'
           rtas:
             - msg: "Holisss mi miguissss <user>!!!"
         #
-        - regex: 'fern(echi|andito|ando)(\s|$)+'
+        - regex: '(\s)?fern(echi|andito|ando)(\s|$)+'
           rtas:
             - msg: "You have to mix it with coke"
             - msg: "Cat, head of chota"
             - msg: "Head of chota, cat"
 
-        - regex: 'gil(\s|$)+'
+        - regex: '(\s)?gil(\s|$)+'
           rtas:
             - msg: "<user>, eh voh' que agitah' ?!?!"
             - msg: "<user>, recatateh' amegoh' ke se te arrima el bondih'"
 
-        - regex: 'gato(\s|$)+'
+        - regex: '(\s)?gato(\s|$)+'
           rtas:
             - img: "https://i.imgur.com/ROqqYjM.png"
 
-        - regex: 'm[aá]g(ic|ia)(\s|$)+'
+        - regex: '(\s)?m[aá]g(ic|ia)(\s|$)+'
           rtas:
             - msg: "<user> dejá de tirar tanta magia"
               img: "https://media.tenor.co/images/5fb8e3d4c56cdf53fb15356f8fd4987e/raw"
 
-        - regex: 'amo(.*)bot(on)?(s+)?'
+        - regex: '(\s)?amo(.*)bot(on)?(s+)?'
           rtas:
             - msg: "<user>, Gracias sonsito :heart::kiss:"
 
-        - regex: '(aq|arquant(s)?)(\s|$)+'
+        - regex: '(\s)?(aq|arquant(s)?)(\s|$)+'
           rtas:
             - msg: "<user>, puede darme dinero?"
               img: "https://i.imgflip.com/37g46s.jpg"
 
-        - regex: 'login(\s|$)+'
+        - regex: '(\s)?login(\s|$)+'
           rtas:
             - msg: "<user> NO PISES MI LOGIN!!!! :tired_face:"
               img: "https://i.imgflip.com/37e29s.jpg"
 
         # Techies
-        - regex: 'p\.?o\.?c(\s|$)+'
+        - regex: '(\s)?p\.?o\.?c(\s|$)+'
           rtas:
             - msg: "Ayuda, soy una poc y estoy atrapada en produccion, saquenme de aca!"
             - msg: "Es una PoC, :musical_note: Loh' atamo' con alambre, lo' atamoh' :musical_note:"
 
-        - regex: '(css|style-sheet)(\s|$)+'
+        - regex: '(\s)?(css|style-sheet)(\s|$)+'
           rtas:
             - img: "https://i.imgur.com/Q3cUg29.gif"
             - img: "https://i.imgur.com/kv7Eods.png"
 
-        - regex: '(node|js|angular|java-?script)(\s|$)+'
+        - regex: '(\s)?(node|js|angular|java-?script)(\s|$)+'
           rtas:
             - img: "https://media.makeameme.org/created/javascript-sgfi8v.jpg"
             - img: "https://img.devrant.io/devrant/rant/r_608411_Wd4s9.jpg"
@@ -74,19 +74,20 @@ workers:
             - img: "https://i.imgur.com/5LizKB8.png"
             - img: "http://gsferreira.com/images/reduce-the-path-length-of-your-node-js-project-dependencies-dependencies-everywhere.jpg"
 
-        - regex: 'proxy(\s|$)+'
+        - regex: '(\s)?proxy(\s|$)+'
           rtas:
             - msg: "Nah Nah Nah <user>, otro proxy más?!?!"
             - msg: ":kuaker:, alguien dijo PROXY?!?! :trollface:"
             - msg: ":hindsight:, alguien dijo PROXY?!?! :trollface:"
 
         # ISBA Team
-        - regex: 'l[ai]cha'
+        - regex: '(\s)?l[ai]cha(\s|$)+'
           rtas:
             - msg: ":licha: :heart: :kuaker:"
-            - msg: ":licha: :heart: :vaca:"
+            - msg: ":licha: :heart: :gato_gritando:"
             - msg: ":licha: :heart: :licha:"
             - msg: ":licha: :heart: :manu:"
+            - img: "https://i.imgur.com/eWGCgIA.jpg"
 
         - regex: '(\s)?manu(\s|$)+'
           rtas:
@@ -109,11 +110,11 @@ workers:
             - msg: "<user>, alquien dijo DevOps?!?"
               img: "https://i.imgur.com/ihupE8c.gif"
 
-        - regex: '(nico)?lino(\s|$)+'
+        - regex: '(\s)?(nico)?lino(\s|$)+'
           rtas:
             - img: "https://i.imgflip.com/2w167o.jpg"
 
-        - regex: '(curr[aá]|gaby)(\s|$)+'
+        - regex: '(\s)?(curr[aá]|gaby)(\s|$)+'
           rtas:
             - msg: "<user>, que mirás?!?"
               img: "https://i.imgflip.com/37e5lw.jpg"
@@ -129,7 +130,7 @@ workers:
             - img: "https://i.imgur.com/OBjcMqJ.jpg"
 
         # Infra Team
-        - regex: '(milanga|wil+[yi])(\s|$)+'
+        - regex: '(\s)?(milanga|wil+[yi])(\s|$)+'
           rtas:
             - msg: "Mira... no sabía"
             - msg: "No sabía nada"
@@ -149,7 +150,7 @@ workers:
             - msg: "¯\\/(ツ)\\/¯"
             - img: "https://i.imgur.com/3lZMh3k.png"
 
-        - regex: '(oj(o|ito)s?|wil+[yi])(\s|$)+'
+        - regex: '(\s)?(oj(o|ito)s?|wil+[yi])(\s|$)+'
           rtas:
             - msg: "*Big Brother is Watching You.*"
               img: "https://i.imgur.com/5KASKiY.png"
