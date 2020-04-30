@@ -109,6 +109,11 @@ workers:
           rtas:
             - msg: "<user>, alquien dijo DevOps?!?"
               img: "https://i.imgur.com/ihupE8c.gif"
+            - img: "https://i.imgur.com/nTl5ljF.png"
+
+        - regex: '(\s)?latenc(y|ia)?(\s|$)+'
+          rtas:
+            - img: "https://i.imgur.com/nTl5ljF.png"
 
         - regex: '(\s)?(nico)?lino(\s|$)+'
           rtas:
