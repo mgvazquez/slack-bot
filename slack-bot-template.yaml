@@ -80,6 +80,11 @@ workers:
             - msg: ":kuaker:, alguien dijo PROXY?!?! :trollface:"
             - msg: ":hindsight:, alguien dijo PROXY?!?! :trollface:"
 
+        - regex: '(\s)?cobramos(\s|$)+'
+          rtas:
+            - msg: "Te depositaron el sueldo, y vos tipo"
+              img: "https://i.imgur.com/k34jjkD.png"
+
         # ISBA Team
         - regex: '(\s)?l[ai]cha(\s|$)+'
           rtas:
