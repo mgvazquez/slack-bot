@@ -83,11 +83,11 @@ workers:
         # ISBA Team
         - regex: '(\s)?l[ai]cha(\s|$)+'
           rtas:
-            - msg: ":licha: :heart: :kuaker:"
-            - msg: ":licha: :heart: :gato_gritando:"
             - msg: ":licha: :heart: :licha:"
             - msg: ":licha: :heart: :manu:"
             - img: "https://i.imgur.com/eWGCgIA.jpg"
+            - msg: "Daaale, no vale campear, dejenme jugar!!!; Joonnaaaa DevOps esta campeandoooo :cry:, y no me dejan jugar tranquiloooo, Jooonnaaaaa"
+              img: "https://i.imgur.com/k34jjkD.png"
 
         - regex: '(\s)?manu(\s|$)+'
           rtas:
