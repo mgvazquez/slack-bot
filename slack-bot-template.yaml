@@ -138,6 +138,8 @@ workers:
             - msg: "Bonate-bonate, Bonate"
               img: "https://i.imgur.com/PcnoVty.png"
             - img: "https://i.imgur.com/OBjcMqJ.jpg"
+            - msg: "<user>, vota por Bonato, por un futuro iluminado :v:"
+              img: "https://i.imgur.com/tHcyLWn.png"
 
         # Infra Team
         - regex: '(\s)?(milanga|wil+[yi])(\s|$)+'
