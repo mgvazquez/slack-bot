@@ -137,6 +137,10 @@ workers:
           rtas:
             - img: "https://i.imgflip.com/2w167o.jpg"
 
+        - regex: '(\s)?dondo(\s|$)+'
+          rtas:
+            - img: "https://i.imgur.com/rAU14Lp.png"
+
         - regex: '(\s)?(curr[aá]|gaby)(\s|$)+'
           rtas:
             - msg: "<user>, que mirás?!?"
