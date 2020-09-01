@@ -99,6 +99,14 @@ workers:
           rtas:
             - img: "https://i.imgur.com/vbElCTX.png"
 
+        - regex: '(\s)?(jona|comandante|braun)(\s|$)+'
+          rtas:
+            - img: "https://media.giphy.com/media/UoXRXZ0LyLrp6HyefD/giphy.gif"
+            - img: "https://i.imgur.com/1PH04KT.png"
+              msg: "<user>, hacemos una minicall?"
+            - img: "https://i.imgur.com/J8I4LZS.png"
+              msg: "<user>, hacemos una minicall?"
+
         - regex: '(\s)?manu(\s|$)+'
           rtas:
             - msg: |
@@ -171,10 +179,6 @@ workers:
           rtas:
             - msg: "*Big Brother is Watching You.*"
               img: "https://i.imgur.com/5KASKiY.png"
-
-        - regex: '(\s)?(jona|comandante|braun)(\s|$)+'
-          rtas:
-            - img: "https://media.giphy.com/media/UoXRXZ0LyLrp6HyefD/giphy.gif"
 
         - regex: '(\s)?ku?aker(\s|$)+'
           rtas:
