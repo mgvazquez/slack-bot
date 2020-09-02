@@ -107,6 +107,13 @@ workers:
             - img: "https://i.imgur.com/J8I4LZS.png"
               msg: "<user>, hacemos una minicall?"
 
+        - regex: '(\s)?(call)(\s|$)+'
+          rtas:
+            - img: "https://i.imgur.com/1PH04KT.png"
+              msg: "<user>, hacemos una minicall?"
+            - img: "https://i.imgur.com/J8I4LZS.png"
+              msg: "<user>, hacemos una minicall?"
+
         - regex: '(\s)?manu(\s|$)+'
           rtas:
             - msg: |
