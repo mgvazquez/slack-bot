@@ -36,6 +36,10 @@ workers:
           rtas:
             - img: "https://i.imgur.com/ROqqYjM.png"
 
+        - regex: '(\s)?(aumento)(\s|$|,)+'
+          rtas:
+            - img: "https://i.imgur.com/hcRJgdg.png"
+
         - regex: '(\s)?m[aá]g(ic|ia)(\s|$)+'
           rtas:
             - msg: "<user> dejá de tirar tanta magia"
