@@ -84,7 +84,7 @@ workers:
             - msg: ":kuaker:, alguien dijo PROXY?!?! :trollface:"
             - msg: ":hindsight:, alguien dijo PROXY?!?! :trollface:"
 
-        - regex: '(\s)?bugs?(\s|$)+'
+        - regex: '(\s|^)bugs?(\s|$)+'
           rtas:
             - img: "https://i.imgur.com/db7Vu33.jpg"
 
