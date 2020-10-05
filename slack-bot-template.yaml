@@ -84,6 +84,10 @@ workers:
             - msg: ":kuaker:, alguien dijo PROXY?!?! :trollface:"
             - msg: ":hindsight:, alguien dijo PROXY?!?! :trollface:"
 
+        - regex: '(\s)?bug(\s|$)+'
+          rtas:
+            - img: "https://i.imgur.com/db7Vu33.jpg"
+
         - regex: '(\s)?cobramos(\s|$)+'
           rtas:
             - msg: "Te depositaron el sueldo, y vos tipo"
