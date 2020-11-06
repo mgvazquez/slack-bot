@@ -201,6 +201,8 @@ workers:
 
         - regex: '(\s)?ku?aker(\s|$)+'
           rtas:
+            - msg: "Prepare yourself to live..."
+              img: "https://i.imgur.com/yR7UDQT.png"
             - img: "https://media.giphy.com/media/8Q62oGruZu0BG/giphy.gif"
             - img: "https://media.giphy.com/media/3o6Ztd3VwRbHlSUdva/giphy.gif"
 #fix
