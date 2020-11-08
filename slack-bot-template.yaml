@@ -173,6 +173,11 @@ workers:
             - msg: "<user>, vota por Bonato, por un futuro iluminado :v:"
               img: "https://i.imgur.com/tHcyLWn.png"
 
+        - regex: '(\s)?nat(s)?(\s|$)+'
+          rtas:
+            - msg: "<user>, te dejo esta estampita, para que nunca tengas que volver a implementar un Kerio"
+              img: "https://i.imgur.com/rVhMlc4.png"
+
         # Infra Team
         - regex: '(\s)?(milanga|wil+[yi])(\s|$)+'
           rtas:
