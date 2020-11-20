@@ -199,6 +199,11 @@ workers:
             - msg: "¯\\/(ツ)\\/¯"
             - img: "https://i.imgur.com/3lZMh3k.png"
 
+        - regex: '(\s|^)opera[td]or(\s|$)+'
+          rtas:
+            - msg: "Hi <user>!. Here, THE Operator-Man speaking. Can I do something completely useless and meaningless for you?"
+              img: "https://i.imgur.com/iFXCzhm.png"
+
         - regex: '(\s)?(oj(o|ito)s?|wil+[yi])(\s|$)+'
           rtas:
             - msg: "*Big Brother is Watching You.*"
