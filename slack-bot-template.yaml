@@ -201,7 +201,7 @@ workers:
 
         - regex: '(\s|^)opera[td]or(\s|$)+'
           rtas:
-            - msg: "Hi <user>!. Here, THE Operator-Man speaking. Can I do something completely useless and meaningless for you?"
+            - msg: "Hi <user>!. Here, THE Operator-Man speaking. Can I do something completely useless and meaningless for you today?"
               img: "https://i.imgur.com/iFXCzhm.png"
 
         - regex: '(\s)?(oj(o|ito)s?|wil+[yi])(\s|$)+'
