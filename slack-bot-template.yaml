@@ -199,6 +199,10 @@ workers:
             - msg: "¯\\/(ツ)\\/¯"
             - img: "https://i.imgur.com/3lZMh3k.png"
 
+        - regex: '(\s|^)hippie|dbz|insectos?|veggie(\s|$)+'
+          rtas:
+            - img: "https://i.imgur.com/HFu6HXV.png"
+
         - regex: '(\s|^)opera[td]or(\s|$)+'
           rtas:
             - msg: "Hi <user>!. Here, THE Operator-Man speaking. Can I do something completely useless and meaningless for you today?"
