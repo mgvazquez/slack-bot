@@ -65,6 +65,10 @@ workers:
             - msg: "Ayuda, soy una poc y estoy atrapada en produccion, saquenme de aca!"
             - msg: "Es una PoC, :musical_note: Loh' atamo' con alambre, lo' atamoh' :musical_note:"
 
+        - regex: '(\s)?(x?oms|hpe\s2050|hpe)(\s|$)+'
+          rtas:
+            - img: "https://i.imgur.com/iQZVQNS.png"
+
         - regex: '(\s)?(css|style-sheet)(\s|$)+'
           rtas:
             - img: "https://i.imgur.com/Q3cUg29.gif"
