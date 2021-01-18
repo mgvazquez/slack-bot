@@ -27,7 +27,7 @@ workers:
             - msg: "Cat, head of chota"
             - msg: "Head of chota, cat"
 
-        - regex: '(\s)?gil(\s|$)+'
+        - regex: '(\s|^)gil(\s|$)+'
           rtas:
             - msg: "<user>, eh voh' que agitah' ?!?!"
             - msg: "<user>, recatateh' amegoh' ke se te arrima el bondih'"
