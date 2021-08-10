@@ -160,6 +160,11 @@ workers:
           rtas:
             - img: "https://i.imgur.com/rAU14Lp.png"
 
+        - regex: '(\s)?([Dd]eploy)(\s|$)+'
+          rtas:
+            - msg: "<user>, no me cambies la version a último momento LPM!"
+              img: "https://i.imgur.com/jTQNbxL.png"
+
         - regex: '(\s)?(curr[aá]|gaby)(\s|$)+'
           rtas:
             - msg: "<user>, que mirás?!?"
