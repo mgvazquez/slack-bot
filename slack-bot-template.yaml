@@ -243,7 +243,7 @@ workers:
             - img: "https://i.imgur.com/hadyySd.jpg"
             - img: "https://i.imgur.com/3lZMh3k.png"
 
-        - regex: '(\s)?off?(i|ice|icinaa)?(\s|$)+'
+        - regex: '(\s)?off?(i|ice|icina)?(\s|$)+'
           rtas:
             - img: "https://i.imgur.com/3WECNFq.png"
             - img: "https://i.imgur.com/utFF0eR.jpg"
